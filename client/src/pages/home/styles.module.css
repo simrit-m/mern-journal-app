@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 30px;
+}
+
+.journalList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.journalList div {
+    padding: 10px;
+    border: 1px solid blue;
+}
